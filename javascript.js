@@ -1,19 +1,12 @@
-const dropdown = document.querySelector(".dropdown");
-const menuOpen = document.querySelector(".dropdownActive");
-const menuClose = document.querySelector(".dropdownClose");
+gsap.from(".navbar", { duration: 1, y: "-100%", ease: 'bounce'});
 
+const menuOpen = document.getElementById("menuOpen");
+const dropDown = document.getElementById("dropDown");
 
-menuOpen.addEventListener("click", ()=>{
-    dropdown.classList.add("active");
-    dropdownActive.classList.add("active");
-    dropdownClose.classList.add("active");
-
-});
-menuOpen.addEventListener("click", ()=>{
-    dropdown.classList.remove("active");
-    dropdownActive.classList.remove("active");
-    dropdownClose.classList.remove("active");
-
+menuOpen.addEventListener("click", () => {
+  console.log("hhh");
+  menuOpen.classList.add("active");
+  dropDown.classList.add("active");
 });
 
-
+console.log(menuOpen);
