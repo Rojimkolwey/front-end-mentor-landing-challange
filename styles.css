@@ -10,7 +10,9 @@
 * {
   font-family: "Epilogue", sans-serif;
 }
-
+body {
+  overflow: hidden;
+}
 .container {
   margin-top: 30px;
   max-height: 100vh;
@@ -29,9 +31,11 @@ p {
   font-weight: lighter;
 }
 .navbar {
+  padding: 2rem;
   display: flex;
   margin-top: 30px;
   margin: 0px;
+  background-color: beige;
 }
 
 .company-name {
@@ -114,6 +118,7 @@ div.left-hero-section button:hover {
 }
 .footer {
   padding-left: 150px;
+  transform: translateY(200%);
 }
 .footer img {
   height: 18px;
