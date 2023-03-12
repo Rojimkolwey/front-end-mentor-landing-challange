@@ -14,7 +14,7 @@ gsap.from(".image-hero-section", {
   x: "-100vw",
   ease: "power.in",
 });
-gsap.to(".footer", { duration: 1, y: 0, ease: "eleastic", delay: 2.5 });
+gsap.to(".footer", { duration: 1.5, y: 0, ease: "eleastic", delay: 2.5 });
 
 const menuOpen = document.getElementById("menuOpen");
 const dropDown = document.getElementById("dropDown");
